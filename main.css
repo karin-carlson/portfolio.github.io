@@ -14,6 +14,24 @@ nav {
     float:right;
 }
 
+
+.logo {
+    float:left;
+}
+
+.tools {
+    float:right; 
+    padding-right: 200px;
+}
+
+.designRoles {
+    float:left;
+}
+
+.problem {
+    padding-top: 200px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Vollkorn|Roboto);
 .toggle-button {
     float: right;
@@ -148,7 +166,7 @@ p .intro {
   display: inline-block;
 }
 
-h3{
+h3 {
     font-family: "Romana BT";
     font-size:48px; 
     font-weight:100;
@@ -156,25 +174,14 @@ h3{
 }
 
 .footer {
-  position: fixed;
-  width: 80%;
+ float: right;
   background-color:#EEE8E4;
   color: #104253;
-  text-align: right;
-  float: right;
   font-size: 48px; 
 }
 
 hr {
-    margin-right: 350px;
-    margin-left:350px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-content: center;
-    width: 258px;
-    height: 0px;
-    left: 64px;
-    top: 6816px;
+  
     border: 2px solid #FFB838;
 }
 
@@ -259,4 +266,34 @@ font-size: 48px;
 line-height: 55px;
 
 color: #104253;
+}
+
+.designRoles {
+    float: left;
+}
+
+.tools{
+    float: right;
+}
+
+.problem{
+    float: left;
+    width: 400px;
+    margin: 20px;
+}
+
+.solution{
+    float: right;
+    width: 400px;
+    margin: 20px;
+}
+
+.userSurvey{
+    float: left;
+    width: 400px;
+    margin: 20px;
+}
+
+.questions{
+    float: right;
 }
